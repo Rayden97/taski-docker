@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", 'default_key')
 
 DEBUG = True
 
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "127.0.0.1").split(',')
+ALLOWED_HOSTS = ['158.160.4.22', '127.0.0.1', 'localhost', 'taski-rayden.ddns.net']
 
 
 # Application definition
